@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background-image: linear-gradient(360deg, rgb(245,142,77),rgb(237,91,53));
+}
+
+h1, h2 {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+#loginkeret {
+    background-color: rgba(247, 247, 247, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#content, #adminselect, #table {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+label, select, table, button, input, h3 {
+    font-size: 1.2em;
+    margin: 10px;
+}
+
+button, #fooldallink {
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 20px;
+    background-color: tomato;
+    color: white;
+    font-size: 1.2rem;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+button:hover, #fooldallink:hover {
+    background-color: rgb(250, 118, 94);
+}
+
+button:active, #fooldalllink:active {
+    transform: scale(0.95);
+}
+
+input, select {
+    font-family: 'Montserrat', sans-serif;
+    width: 250px;
+    border: thin solid tomato;
+    outline: none;
+    border-radius: 20px;
+    padding: 5px 10px;
+    font-size: 1em;
+}
+
+label {
+    font-size: 1.2em;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60vw;
+    background-color: rgba(247, 247, 247, 0.7);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    color: black;
+    border: 3px solid tomato; 
+}
+
+th, td {
+    border: thin solid tomato;
+    padding: 5px;
+}
+
+#visszaigazolas {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#fooldallink {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+}
